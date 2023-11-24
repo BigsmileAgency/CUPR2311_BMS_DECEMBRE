@@ -2,35 +2,35 @@
 
 // ONLY VARIABLE VALUES !!
 
-$logo-w: 60px;
+$logo-w: 80px;
 $logo-h: round($logo-w*0.9781818181818182);
 
-$cta-w: 125px;
+$cta-w: 160px;
 $cta-h: round($cta-w*0.2715751896474788);
 
 #container {
     #logo{
-        left:50px;
-        top:20px;
+        left: 75px;
+        top:40px;
         width:$logo-w;
         height:$logo-h;
     }
     #car{
-        top: 205px;
-        width: 175px;
-        left: -9px;
+        top: 250px;
+        width: 250px;
+        left: -11px;
     }
 
     .cta{
         width:$cta-w;
         height:$cta-h;
-        bottom: 40px;
-        left: 13px;
+        bottom: 80px;
+        left: 20px;
     }
     .txt{
-        font-size: 14px;
-        left: 13px;
-        top: 460px;    
+        font-size: 20px;
+        left: 20px;
+        top: 600px;    
         line-height: 1.2;
     }
 }
