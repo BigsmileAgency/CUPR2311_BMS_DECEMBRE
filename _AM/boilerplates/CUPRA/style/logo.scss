@@ -1,0 +1,71 @@
+#container{
+  #logo__container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    // pointer-events: none;
+    .logo{
+      &__content{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        svg{
+          width: 75px;
+          height: 50px;
+        }
+      }
+    }
+
+    &.format{
+      // &__1120_300,&__600_500,&__768_250,&__970_250,&__995_250{
+      //   .logo__content{
+      //     svg{
+      //       width: 90px;
+      //       height: 59px;
+      //     }
+      //   }
+      // }
+      &__320_50,&__320_75,&__300_75,&__320_100,&__320_125,&__375_100,&__468_60{
+        .logo__content{
+          svg{
+            width: 50px;
+            height: 33px;
+          }
+        }
+      }
+    }
+  }
+  .justify__left--logo{
+    .logo__content{
+      justify-content: flex-start;
+    }
+  }
+  .justify__right--logo{
+    .logo__content{
+      justify-content: flex-end;
+    }
+  }
+  .justify__center--logo{
+    .logo__content{
+      justify-content: center;
+    }
+  }
+  .align__top--logo{
+    .logo__content{
+      align-items: flex-start;
+    }
+  }
+  .align__bottom--logo{
+    .logo__content{
+      align-items: flex-end;
+    }
+  }
+  .align__center--logo{
+    .logo__content{
+      align-items: center;
+    }
+  }
+
+}

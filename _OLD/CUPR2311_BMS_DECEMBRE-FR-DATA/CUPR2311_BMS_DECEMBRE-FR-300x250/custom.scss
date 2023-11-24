@@ -1,0 +1,53 @@
+<!-- GetValueProcess:beginCustomStyle -->
+
+// ONLY VARIABLE VALUES !!
+
+$logo-w: 55px;
+$logo-h: round($logo-w*0.65);
+
+$cta-w: 90px;
+$cta-h: round($cta-w*0.31875);
+
+#container {
+    #logo{
+        left:10px;
+        top:10px;
+        width:$logo-w;
+        height:$logo-h;
+    }
+    #mask{
+        right:0;
+        top:0;
+    }
+    #car{
+        top:15px;
+        width: 200px;
+        left: 15px;
+    }
+
+    .cta{
+        width:$cta-w;
+        height:$cta-h;
+        bottom: 10px;
+        right:10px;
+    }
+    .txt{
+        font-size: 12px;
+        right: 10px;
+        top: 170px;
+        text-align: right;
+        // line-height: 1.1;
+    }
+    #copy1{
+        top:130px;
+        .bold{
+            font-size: 1.35em;
+        }
+    }
+    #mention{
+        font-size: 6px;
+        top:200px;
+    }
+}
+
+<!-- GetValueProcess:endCustomStyle -->

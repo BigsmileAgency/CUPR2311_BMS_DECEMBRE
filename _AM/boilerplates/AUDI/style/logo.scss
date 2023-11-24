@@ -1,0 +1,73 @@
+#container{
+  #logo__container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    .logo{
+      &__content{
+        display: flex;
+        svg{
+          width: 75px;
+          height: 26px;
+        }
+      }
+    }
+
+    &.format{
+      &__200_600,&__250_600{
+        .logo__content{
+          svg{
+            width: 100px;
+            height: 35px;
+          }
+        }
+      }
+      &__300_600,&__320_480,&__970_250,&__995_250{
+        .logo__content{
+          svg{
+            width: 120px;
+            height: 42px;
+          }
+        }
+      }
+      &__600_500,&__1120_300{
+        .logo__content{
+          svg{
+            width: 133px;
+            height: 45px;
+          }
+        }
+      }
+      &__375_100,&__320_100,&__320_125,&__320_75,&__320_50,&__468_60,&__300_75{
+        .logo__content{
+          svg{
+            width: 48px;
+            height: 18px;
+          }
+        }
+      }
+    }
+  }
+  .legal{
+    &__content{
+      display: flex;
+    }
+  }
+  .position__left--legal,.position__left--logo{
+    .legal__content, .logo__content,.logo_secu{
+      justify-content: flex-start;
+    }
+  }
+  .position__right--legal,.position__right--logo{
+    .legal__content, .logo__content,.logo_secu{
+      justify-content: flex-end;
+    }
+  }
+  .position__center--legal,.position__center--logo{
+    .legal__content, .logo__content,.logo_secu{
+      justify-content: center;
+    }
+  }
+
+}

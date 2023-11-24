@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    
+    "title": "<!-- ReplaceValueProcess:title -->",
+    "description": "<!-- ReplaceValueProcess:description -->",
+    "width": <!-- ReplaceValueProcess:width -->,
+    "height": <!-- ReplaceValueProcess:height -->,
+    "events": {
+        "enabled": 0,
+        "list": {}
+    },
+    "clicktags": {
+        "clickTAG": "<!-- ReplaceValueProcess:clicktag -->"
+    },
+    "source": "index.html"
+}

@@ -1,0 +1,56 @@
+#container{
+  #mask__container{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    #mask{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300%;
+      height: 300%;
+    }
+    &.format{
+      &__120_600,&__160_600{
+        #mask{
+          width: 140%;
+          height: 140%;
+        }
+      }
+      &__768_250,&__640_200{
+        #mask{
+          width: 400%;
+          height: 400%;
+        }
+      }
+      &__320_100,&__320_125,&__300_75,&__640_150,&__840_150,&__970_250,&__995_250,&__800_250{
+        #mask{
+          width: 600%;
+          height: 600%;
+        }
+      }
+      &__320_50,&__320_75,&__375_100,&__960_150,&__1120_300,&__640_100{
+        #mask{
+          width: 700%;
+          height: 700%;
+        }
+      }
+      &__468_60,&__728_90,&__995_123,&__800_150{
+        #mask{
+          width: 850%;
+          height: 850%;
+        }
+      }
+      &__970_90{
+        #mask{
+          width: 1150%;
+          height: 1150%;
+        }
+      }
+    }
+  }
+}

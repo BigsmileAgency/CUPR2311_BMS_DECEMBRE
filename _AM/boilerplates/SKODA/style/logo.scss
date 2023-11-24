@@ -1,0 +1,87 @@
+#container{
+  #logo__container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    .logo{
+      &__content{
+        display: flex;
+        svg{
+          &#logo-default {
+            $w: 70px;
+            $h: round($w * .14);
+            width: $w;
+            height: $h;
+          }
+          &#logo-full {
+            $w: 70px;
+            $h: round($w * .686);
+            width: $w;
+            height: $h;
+          }
+        }
+      }
+    }
+
+    &.format{
+      &__1120_300,&__600_500,&__768_250,&__970_250,&__995_250{
+        .logo__content{
+          svg{
+            &#logo-default {
+              $w: 120px;
+              $h: round($w * .14);
+              width: $w;
+              height: $h;
+            }
+            &#logo-full {
+              $w: 120px;
+              $h: round($w * .686);
+              width: $w;
+              height: $h;
+            }
+          }
+        }
+      }
+      &__320_50,&__300_75{
+        .logo__content{
+          svg{
+            &#logo-default {
+              $w: 55px;
+              $h: round($w * .14);
+              width: $w;
+              height: $h;
+            }
+            &#logo-full {
+              $w: 55px;
+              $h: round($w * .686);
+              width: $w;
+              height: $h;
+            }
+          }
+        }
+      }
+    }
+  }
+  .legal{
+    &__content{
+      display: flex;
+    }
+  }
+  .position__left--legal,.position__left--logo{
+    .legal__content, .logo__content,.logo_secu{
+      justify-content: flex-start;
+    }
+  }
+  .position__right--legal,.position__right--logo{
+    .legal__content, .logo__content,.logo_secu{
+      justify-content: flex-end;
+    }
+  }
+  .position__center--legal,.position__center--logo{
+    .legal__content, .logo__content,.logo_secu{
+      justify-content: center;
+    }
+  }
+
+}

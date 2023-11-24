@@ -1,0 +1,7 @@
+.main {
+  width: round($banner_width - (<?= $theme['padding'] ?> * 2));
+  height: round($banner-height - (<?= $theme['padding'] ?> * 2));
+  background-color: #FF0000;
+  top: <?= $theme['padding'] ?>px;
+  left: <?= $theme['padding'] ?>px;
+}

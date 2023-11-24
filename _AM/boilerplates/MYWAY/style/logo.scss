@@ -1,0 +1,33 @@
+#container{
+    .logo{
+        &.format{
+            width: $logo-w;
+            &__120_600,
+            &__160_600,
+            &__300_600,
+            &__300_250,
+            &__600_500{
+                left: round(($banner-w - $logo-w)/2);
+                bottom: round(($banner-h - ($content-h + $padding-extra) - $logo-h)/2);
+            }
+
+            &__300_100,
+            &__300_150,
+            &__320_100,
+            &__320_50,
+            &__640_200,
+            &__728_90,
+            &__970_90,
+            &__1120_90,
+            &__840_150,
+            &__840_250,
+            &__970_250{                
+                right: round(($banner-w - ($content-w + $padding-extra) - $logo-w)/2);
+                bottom: round(($banner-h - $logo-h)/2)-2;
+            }
+
+        }
+    }  
+}
+
+  
