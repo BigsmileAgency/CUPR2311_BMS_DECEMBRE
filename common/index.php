@@ -27,7 +27,7 @@
         <?= $cm['copy']; ?>
     </div>
 
-    <?php if ($format == "300x600" || $format == "160x600" || $format == "120x600") { ?>
+    <?php if ($format == "300x600" ) { ?>   <!--|| $format == "160x600" || $format == "120x600" -->
         <?php include 'common/assets/logo-long.svg'; ?>
     <?php } else { ?>
         <?php include 'common/assets/logo.svg'; ?>
