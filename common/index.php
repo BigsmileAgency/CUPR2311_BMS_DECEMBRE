@@ -20,7 +20,7 @@
 
     <!-- START CONTENT -->
     <!-- IF CLIENT IS MYWAY CHECK LAYOUT.PHP -->
-    <img src="<?= $assets->path('bg') ?>" id="bg" alt="" class="abs">
+    <img src="<?= $assets->path('bg') ?>" id="bg" alt="" class="visu abs">
     <img src="<?= $assets->path('car') ?>" id="car" alt="" class="abs">
 
     <div id="copy" class="copy txt abs">

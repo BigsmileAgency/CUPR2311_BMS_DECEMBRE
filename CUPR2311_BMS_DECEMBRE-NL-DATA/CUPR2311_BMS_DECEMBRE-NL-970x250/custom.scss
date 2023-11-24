@@ -9,7 +9,7 @@ $brand-w: 200px;
 $brand-h: round($brand-w*0.0942989690721649);
 
 $cta-w: 139px;
-$cta-h: round($cta-w*0.36708860759);
+$cta-h: round($cta-w*0.2715751896474788);
 
 #container {
     #logo{
@@ -25,9 +25,9 @@ $cta-h: round($cta-w*0.36708860759);
         top: 30px;
     }
     #car{
-        top: 10px;
-        right: 110px;
-        width: 330px;
+        top: -2px;
+        right: 120px;
+        width: 350px;
     }
 
     .cta{
@@ -39,7 +39,7 @@ $cta-h: round($cta-w*0.36708860759);
     .txt{
         font-size: 21px;
         left: 30px;
-        top: 95px;
+        top: 75px;
     }
 }
 
