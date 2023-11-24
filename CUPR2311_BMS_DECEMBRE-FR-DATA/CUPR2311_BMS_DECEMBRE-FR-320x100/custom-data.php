@@ -6,7 +6,7 @@
   $content_json['#car'] = array(
     'y' => array('init' => -250, 'anim1' => 0),
     'opacity' => array('init' => 1, 'anim1' => 1, 'anim2' => 0),
-    'rotation' => array('init' => '0.1'),
+    'rotation' => array('init' => '9.1'),
   );
 
   $content_json['#visu1'] = array(

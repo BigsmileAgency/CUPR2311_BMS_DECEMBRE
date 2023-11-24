@@ -5,52 +5,65 @@
 $logo-w: 40px;
 $logo-h: round($logo-w*0.65);
 
+$brand-w: 80px;
+$brand-h: round($brand-w*0.0942989690721649);
+
 $cta-w: 160px;
-$cta-h: round($cta-w*0.31875);
+$cta-h: round($cta-w*0.2715751896474788);
 
 #container {
     #logo{
-        left:10px;
+        right:10px;
         top:10px;
         width:$logo-w;
         height:$logo-h;
     }
-    #mask{
-        right:0;
-        top:0;
-        height: 100px;
-    }
-    .visu{
-        height:100px;
-    }
-    #car{
-        top: 20px;
-        left: 46px;
-        height: 66px;    
+
+    #brand {
+        width: $brand-w;
+        height: $brand-h;
+        left: 10px;
+        top: 10px;
     }
 
+    #mask{
+        right:-15px;
+        top:0;
+        height: 50px;
+    }
+    .visu{
+        height:50px;
+    }
+    #car{
+        top: 6px;
+        left: 186px;
+        height: 40px;
+    }
     .cta{
         width:$cta-w;
         height:$cta-h;
         top: 170px;
-        right:10px;
+        right:5px;
     }
     .txt{
-        font-size: 10px;
-        right: 10px;
-        top: 48px;
+        font-size: 8px;
+        left: 10px;
+        top: 24px;
         text-align: right;
         // line-height: 1.1;
     }
     #copy1{
-        top:15px;
+        top:6px;
         .bold{
-            font-size: 1.35em;
+            font-size: 1.2em;
+        }
+        .ita{
+            margin-right: 2px;
         }
     }
     #mention{
         font-size: 6px;
-        top:87px;
+        top:40px;
     }
 }
 

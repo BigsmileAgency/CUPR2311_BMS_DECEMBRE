@@ -1,0 +1,46 @@
+<!-- GetValueProcess:beginCustomStyle -->
+
+// ONLY VARIABLE VALUES !!
+
+$logo-w: 100px;
+$logo-h: round($logo-w*0.65);
+
+$brand-w: 200px;
+$brand-h: round($brand-w*0.0942989690721649);
+
+$cta-w: 139px;
+$cta-h: round($cta-w*0.2715751896474788);
+
+#container {
+    #logo{
+        right:20px;
+        bottom:20px;
+        width:$logo-w;
+        height:$logo-h;
+    }
+    #brand {
+        width: $brand-w;
+        height: $brand-h;
+        left: 30px;
+        top: 30px;
+    }
+    #car{
+        top: -2px;
+        right: 120px;
+        width: 350px;
+    }
+
+    .cta{
+        width:$cta-w;
+        height:$cta-h;
+        bottom: 30px;
+        left:30px;
+    }
+    .txt{
+        font-size: 21px;
+        left: 30px;
+        top: 75px;
+    }
+}
+
+<!-- GetValueProcess:endCustomStyle -->
