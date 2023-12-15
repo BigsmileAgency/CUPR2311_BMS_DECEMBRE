@@ -31,7 +31,7 @@
         <?php include 'common/assets/logo-long.svg'; ?>
     <?php } else { ?>
         <?php include 'common/assets/logo.svg'; ?>
-        <?php if ($format == "970x250" || $format == "728x90" || $format == "320x100" || $format == "320x50") { ?>
+        <?php if ($format == "970x250" || $format == "728x90" || $format == "320x100" || $format == "320x50" || $format == "640x200" || $format == "640x100") { ?>
             <?php include 'common/assets/brand.svg'; ?>
         <?php } ?>
     <?php } ?>

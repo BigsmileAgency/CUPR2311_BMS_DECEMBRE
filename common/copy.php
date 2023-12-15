@@ -6,4 +6,4 @@
   $copies["copy"]["FR"]["300x600"] = "Défier<br/>ses&nbsp;habitudes";
 
   $copies["copy"]["NL"][] = "Doorbreek uw&nbsp;gewoontes";
-  $copies["copy"]["NL"]["320x100"] = "Doorbreek<br/>uw&nbsp;gewoontes";
+  $copies["copy"]["NL"]["320x100 640x200"] = "Doorbreek<br/>uw&nbsp;gewoontes";
